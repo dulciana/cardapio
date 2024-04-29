@@ -1,4 +1,55 @@
-/* Adicione estas regras CSS para alinhar as descrições ao lado das imagens e centralizadas na página */
+/* Reset de estilos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.background-image {
+    background-image: url('img/fundo.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Times New Roman", serif; /* Aplicando uma fonte mais elegante */
+}
+
+.cardapio {
+    margin-bottom: 20px;
+}
 
 .items {
     display: flex;
@@ -14,6 +65,17 @@
     margin: 10px;
 }
 
+.item img {
+    width: 200px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: auto; /* Manter a proporção */
+}
+
 .descricao {
     text-align: center;
+    font-family: "Times New Roman", serif; /* Aplicando uma fonte mais elegante */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
 }
