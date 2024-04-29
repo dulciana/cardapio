@@ -1,0 +1,19 @@
+/* Adicione estas regras CSS para alinhar as descrições ao lado das imagens e centralizadas na página */
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.descricao {
+    text-align: center;
+}
